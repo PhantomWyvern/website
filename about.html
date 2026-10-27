@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About — michaelk-research.dev</title>
+    <meta name="description" content="About michaelk-research.dev: Michael's self-study nuclear engineering research journal." />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <style type="text/tailwindcss">
+      @theme {
+        --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+        --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+      }
+    </style>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚛️</text></svg>" />
+  </head>
+  <body class="bg-slate-950 font-sans text-slate-300 antialiased">
+    <!-- Header -->
+    <header class="sticky top-0 z-10 border-b border-slate-800/80 bg-slate-950/80 backdrop-blur">
+      <div class="mx-auto flex max-w-3xl items-center justify-between gap-4 px-6 py-4">
+        <a href="index.html" class="font-display text-sm font-bold text-slate-100 sm:text-base">
+          <span class="text-cyan-400">⚛</span> michaelk-research<span class="text-slate-500">.dev</span>
+        </a>
+        <nav class="flex items-center gap-1 text-sm font-medium">
+          <a href="index.html" class="rounded-full px-3 py-1.5 text-slate-400 transition hover:bg-slate-800 hover:text-slate-100">Blog</a>
+          <a href="about.html" aria-current="page" class="rounded-full bg-cyan-400 px-3 py-1.5 font-semibold text-slate-950">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-3xl px-6">
+      <article class="py-12 sm:py-16">
+        <p class="mb-3 font-mono text-xs text-slate-500">About</p>
+        <h1 class="font-display text-3xl font-bold leading-tight text-slate-50 sm:text-4xl">
+          Hi, I'm Michael.
+        </h1>
+
+        <div class="mt-8 space-y-6 leading-relaxed">
+          <p><strong class="text-slate-100">michaelk-research.dev</strong> is my public study notebook as I work towards a career maintaining equipment in a nuclear power plant. I'll use it to record what I'm learning and explain it in my own words.</p>
+          <p>Nuclear science was the A-level Physics topic that stayed with me—even though I earned an E. I went into vehicle repair, where I realised I understand things best when I know why and how something works. That's the approach I'm bringing to nuclear engineering now.</p>
+          <p>I'm currently applying to university and apprenticeship routes to find a path into the industry.</p>
+
+          <h2 class="font-display pt-4 text-2xl font-semibold text-slate-100">The question I'm exploring</h2>
+          <p>How does controlled fission become electricity, and why does a PWR need each part of the process? I want to follow the energy from the reactor core through the coolant loops and turbine, and understand the physics behind each step—not just memorise equations.</p>
+
+          <h2 class="font-display pt-4 text-2xl font-semibold text-slate-100">My roadmap</h2>
+          <div class="rounded-lg border border-slate-700 bg-slate-900 p-5">
+            <ol class="list-decimal space-y-2 pl-5 text-sm marker:text-cyan-400">
+              <li><strong class="text-slate-100">A-level Mathematics: Year 1 fundamentals</strong> — In progress</li>
+              <li><strong class="text-slate-100">A-level Mathematics: Year 2 topics</strong> — Next</li>
+              <li><strong class="text-slate-100">A-level Physics review</strong> — heat transfer, moments, energy, 2D vectors and radioactive decay</li>
+              <li><strong class="text-slate-100">Further topics</strong> — I'll add these as I progress</li>
+            </ol>
+            <p class="mt-4 font-mono text-xs text-slate-500">Last updated 27 October 2026</p>
+          </div>
+          <h2 class="font-display pt-4 text-2xl font-semibold text-slate-100">Honest disclosure</h2>
+          <p>
+            I'm a self-studying student, not an engineer. These notes are for learning, not professional guidance or peer-reviewed work. I'll list sources with published posts and correct mistakes when I find them.
+          </p>
+
+          <h2 class="font-display pt-4 text-2xl font-semibold text-slate-100">Get in touch</h2>
+          <p>
+            If you're an apprenticeship scheme, university admissions team, or someone in the
+            industry willing to talk to a serious learner — I'd genuinely value a conversation.
+          </p>
+          <div class="flex flex-wrap gap-3 pt-2">
+            <a href="mailto:Contact@michaelk-research.dev" class="rounded-lg border border-cyan-400/40 bg-cyan-400/10 px-5 py-2.5 text-sm font-semibold text-cyan-300 transition hover:bg-cyan-400/20">
+              Email me
+            </a>
+            <a href="https://github.com/PhantomWyvern" class="rounded-lg border border-slate-700 px-5 py-2.5 text-sm font-semibold text-slate-300 transition hover:border-slate-500 hover:text-slate-100">
+              GitHub 
+            </a>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800">
+      <div class="mx-auto flex max-w-3xl flex-col gap-2 px-6 py-8 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between">
+        <p>⚛ michaelk-research.dev — Michael's self-study research blog.</p>
+        <a href="index.html" class="text-xs text-slate-400 transition hover:text-cyan-400">← Back to the blog</a>
+      </div>
+    </footer>
+  </body>
+</html>
